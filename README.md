@@ -5,7 +5,7 @@ Welcome to our bookutu website project! This is a platform designed to bridge th
 [LIBRARIA-Online-Library-Template](https://www.templateshub.net/template/LIBRARIA-Online-Library-Template)
 
 ## Installation
-1. Download ZIP or Clone the [repository](https://github.com/krisyohanda/UASWeb2.git)
+1. Download ZIP or Clone the [repository](https://github.com/krisyohanda/bookutu.git)
 2. Turn on mysql and go to localhost/phpmyadmin and create a database name **elibrary**
 3. Run terminal
 ```bash
@@ -30,3 +30,8 @@ Welcome to our bookutu website project! This is a platform designed to bridge th
 ## Created by
 - [@muhammadmajdi](https://github.com/Morfz)
 - [@krisyohanda](https://github.com/krisyohanda)
+
+## Screenshots
+<img src="screenshots/1.png"> 
+<img src="screenshots/2.png">
+<img src="screenshots/3.png">
