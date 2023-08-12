@@ -1,36 +1,32 @@
-# Website Bookutu
-Bookstore online menggunakan laravel
+# Bookutu
+Welcome to our bookutu website project! This is a platform designed to bridge the gap between book enthusiasts and the world of literature. Customers can easily browse the book catalog and can purchase desired books.
 
-### Tutorial run this project on your computer
-1. Clone this repo (https://github.com/krisyohanda/UASWeb2.git) or Download ZIP (don't forget to extract)
-2. Go to your localhost/phpmyadmin/ and make database name **bookutu**
-3. Open Visual Studio Code and XAMPP (Start Apache and MySQL)
-4. Open the folder on VSC 
-5. Run terminal
-6. Type "php artisan migrate"
-7. Go to your localhost/phpmyadmin/
-8. Delete table book in database **bookutu**
-9. Select import in phpmyadmin
-10. Choose file: books.sql
-11. Then click go
-12. Back to visual studio code and run the terminal
-13. Type "php artisan server"
-14. Go to browser and type **127.0.0.1**
-15. First, make account and login.
-16. End
+## Templates
+[LIBRARIA-Online-Library-Template](https://www.templateshub.net/template/LIBRARIA-Online-Library-Template)
 
-Tampilan website ini menggunakan template dari templateshub yang berjudul [LIBRARIA-Online-Library-Template](https://www.templateshub.net/template/LIBRARIA-Online-Library-Template)
+## Installation
+1. Download ZIP or Clone the [repository](https://github.com/krisyohanda/UASWeb2.git)
+2. Turn on mysql and go to localhost/phpmyadmin and create a database name **elibrary**
+3. Run terminal
+```bash
+    composer install
+```
+```bash
+    composer update
+```
+```bash
+    php artisan migrate
+```
+```bash
+    php artisan serve
+```
+4. Go to the (http://127.0.0.1:8000)
 
-#### Website ini dibuat menggunakan
-- Web Framework: Laravel
-- Javascript Framework: React
-- UI Framework: Bootstrap
-
-Package yang digunakan dalam project ini adalah sebagai berikut:
+## Package
 - [Laravel/ui](https://github.com/laravel/ui)
 - [realrashid/sweet-alert](https://github.com/realrashid/sweet-alert)
 - [the-control-group/voyager](https://github.com/the-control-group/voyager)
 
-Tugas ini dibuat oleh:
-- [Muhammad Majdi](https://github.com/Morfz)
-- [Shendy Krisyohanda](https://github.com/krisyohanda)
+## Created by
+- [@muhammadmajdi](https://github.com/Morfz)
+- [@krisyohanda](https://github.com/krisyohanda)
